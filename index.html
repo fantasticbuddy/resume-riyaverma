@@ -21,7 +21,7 @@
             <a href="" class="nav-link">Home</a>
             <a href="#about" class="nav-link">About</a>
             <a href="" class="nav-link">Projects</a>
-            <a href="" class="nav-link">Hobbies</a>
+            <a href="#hobbies" class="nav-link">Hobbies</a>
         </div>
         <div class="contact">
             <a href="#footer" class="fa fa-user"></a>
@@ -30,15 +30,11 @@
 
     <!-- main content -->
     <main>
-
         <section class="main-container">
             <div class="main-content">
-                <div class="main-left">
-                    <!-- <img src="images/karate.jpg" alt=""> -->
-                </div>
                 <div class="main-right">
                     <h2>Hi, I'm Riya Verma</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos hic sapiente alias, expedita a vitae! Quos recusandae numquam et animi deleniti cumque distinctio nam?</p>
+                    <p>Web Developer</p>
                 </div>
             </div>
         </section>
@@ -60,7 +56,7 @@
                     <div class="skills">
                         <h4>SKILLS</h4>
                         <label for="level-C++">C++</label><br>
-                        <input type="range" id="level-C++" min="0" max="10" value="7"><br>
+                        <input type="range" id="level-C++" min="0" max="10" value="7" ><br>
 
                         <label for="level-HTML">HTML</label><br>
                         <input type="range" id="level-HTML" min="0" max="10" value="9"><br>
@@ -73,8 +69,8 @@
         </section>
 
         <!-- hobbies section -->
-        <section class="hobbies-container">
-            <h1>MY H🏈BBIES</h1>
+        <section id="hobbies" class="hobbies-container">
+            <h1>MY HOBBIES</h1>
             <div class="all-hobbies">
                 <div class="hobbie hobbie1">
                     <div class="image">
@@ -83,7 +79,8 @@
                     </div>
                     <div class="hobbie-content">
                         <h2>Karate</h2>
-                        <p>From White Belt to National Stage: <br> "Karate's Power Shapes Character on My Path."</p>
+                        <p>"Karate's Power Shapes Character on My Path."</p>
+                        <p>Instagram <a class="fa fa-instagram" href=""></a> </p>
                     </div>
                 </div>
                 <div class="hobbie hobbie2">
@@ -93,7 +90,8 @@
                     </div>
                     <div class="hobbie-content">
                         <h2>Chess</h2>
-                        <p>From Pawn to GrandMaster: <br> "Harnessing Serenity in the Face of Checkmate."</p>
+                        <p>"Harnessing Serenity in the Face of Checkmate."</p>
+                        <p>Chess.com <a class="fa fa-pawn" href=""></a> </p>
                     </div>
                 </div>
                 <div class="hobbie hobbie3">
@@ -103,7 +101,7 @@
                     </div>
                     <div class="hobbie-content">
                         <h2>Rubik's Cube</h2>
-                        <p>Childhood Bliss, Toy's Serene Embrace: <br> "Bring Me Joy with a Smiling Face".</p>
+                        <p>"Bring Me Joy with a Smiling Face".</p>
                     </div>
                 </div>
             </div>
@@ -120,7 +118,7 @@
                     <label for="name">Name</label>
                     <input id="name" type="text" placeholder="Your Name">
                     <label for="number">Contact No.</label>
-                    <input id="number" type="number" placeholder="Your contact">
+                    <input id="number" inputmode="numeric" type="text" placeholder="Your contact">
                     <label for="message">Your precious words</label>
                     <textarea name="" id="message" cols="30" rows="10"></textarea>
                     <input type="submit" name="submit" value="Connect" />
